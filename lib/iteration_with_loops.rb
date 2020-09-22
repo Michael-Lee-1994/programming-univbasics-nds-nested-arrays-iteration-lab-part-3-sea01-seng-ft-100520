@@ -10,9 +10,8 @@ def join_nested_strings(src)
         j += 1
       else
       new_array += src[i][j]
-      end
-      i += 1
     end
-    new_array
+      i += 1
   end
+    new_array
 end
