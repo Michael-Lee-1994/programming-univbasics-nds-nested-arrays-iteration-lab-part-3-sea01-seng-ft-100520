@@ -7,8 +7,12 @@ def join_nested_strings(src)
     j = 0 
     while j < src[i].length do
       if src[i][j]_number? 
+        j += 1
+      else
       new_array += src[i][j]
+      end
+      i += 1
     end
-    
+    new_array
   end
 end
