@@ -4,9 +4,9 @@ def join_nested_strings(src)
   
   new_array = []
   i = 0 
-  while i < src.length do
+  while i < src.count do
     j = 0 
-    while j < src[i].length do
+    while j < src[i].count do
       new_array.join(src[i][j])
       j += 1
     end
