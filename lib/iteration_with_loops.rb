@@ -7,6 +7,7 @@ def join_nested_strings(src)
   while i < src.length do
     j = 0 
     while j < src[i].length do
+      if
       new_array.join(src[i][j])
       j += 1
     end
