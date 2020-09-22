@@ -8,7 +8,7 @@ def join_nested_strings(src)
     j = 0 
     while j < src[i].length do
       if src[i][j].class == String
-      new_array += src[i][j]
+      new_array += src[i][j] + " "
       j += 1
     end
     i += 1
